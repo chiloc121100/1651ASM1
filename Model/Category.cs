@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using ASM1MVC.Controller;
+
+namespace ASM1MVC.Model
+{
+    class Category : Database
+    {
+        public int CategoryID { get; set; }
+        public string CategoryName { get; set; }
+
+        //constructor
+        public Category()
+        {
+
+        }
+    }
+}
